@@ -16,3 +16,5 @@ function bubbleSort(arr) {
 console.time('bubbleSort')
 console.log(bubbleSort(arr))
 console.timeEnd('bubbleSort')
+
+// Worst case time complexity is O(n*n)

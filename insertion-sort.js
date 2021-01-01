@@ -23,3 +23,5 @@ const t1 = performance.now()
 console.log(
   'Call to insertionSort took ' + (t1 - t0).toFixed(2) + ' milliseconds'
 )
+
+// Worst case time complexity is O(n*n)

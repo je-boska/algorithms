@@ -26,3 +26,6 @@ const t0 = performance.now()
 console.log(quickSort(arr))
 const t1 = performance.now()
 console.log('Call to quickSort took ' + (t1 - t0).toFixed(2) + ' milliseconds')
+
+// Average time complexity is O(n log n), worst case is O(n*n)
+// Not a stable sort algorithm

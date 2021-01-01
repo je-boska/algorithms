@@ -34,3 +34,6 @@ const t0 = performance.now()
 console.log(mergeSort(arr))
 const t1 = performance.now()
 console.log('Call to mergeSort took ' + (t1 - t0).toFixed(2) + ' milliseconds')
+
+// Worst case time complexity is O(n log n)
+// Not an in-place sorting algorithm
